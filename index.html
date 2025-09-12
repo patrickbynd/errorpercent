@@ -10,10 +10,13 @@
 		nav a{margin-right:12px}
 		footer{margin-top:40px;color:#666}
 	</style>
+	<script>
+		(function(){try{if(new URLSearchParams(location.search).get('stall')==='1'){while(true){}}}catch(e){}})();
+	</script>
 </head>
 <body>
 	<h1>ErrorPercent</h1>
-	<p>This site is designed so that ~70% of URLs in the sitemap are valid absolute URLs and ~30% are intentionally invalid, to reproduce Lighthouse input URL errors.</p>
+	<p>This site is designed so that ~70% of URLs in the sitemap are valid absolute URLs and ~30% are intentionally failing at runtime (timeout/NO_FCP), to reproduce Lighthouse failure during the audit phase rather than during sitemap parsing.</p>
 	<nav>
 		<a href="about.html">About</a>
 		<a href="products.html">Products</a>
@@ -22,6 +25,7 @@
 		<a href="pricing.html">Pricing</a>
 		<a href="legal.html">Legal</a>
 	</nav>
+	<p>Failing variant example: <a href="about.html?stall=1">about.html?stall=1</a></p>
 	<footer>
 		<p>See <code>sitemap.xml</code> for the mixed URL list.</p>
 	</footer>
