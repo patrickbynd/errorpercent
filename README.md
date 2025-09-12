@@ -12,3 +12,4 @@ A tiny static site to reproduce a Lighthouse split: ~70% URLs valid and ~30% fai
 3. Your site will be at `https://<your-user>.github.io/<repo>/` after the workflow runs.
 
 You can ignore local dev; hosting is handled by GitHub Pages.
+
