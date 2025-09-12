@@ -45,9 +45,9 @@ jobs:
             <url><loc>${BASE_URL}/contact.html</loc></url>
             <url><loc>${BASE_URL}/pricing.html</loc></url>
             <url><loc>${BASE_URL}/legal.html</loc></url>
-            <url><loc>/careers</loc></url>
-            <url><loc>//example.com/partners</loc></url>
-            <url><loc>example.com/press</loc></url>
+            <url><loc>${BASE_URL}/stall-cpu-1.html</loc></url>
+            <url><loc>${BASE_URL}/stall-cpu-2.html</loc></url>
+            <url><loc>${BASE_URL}/stall-cpu-3.html</loc></url>
           </urlset>
           EOF
           cat > dist/robots.txt <<EOF
