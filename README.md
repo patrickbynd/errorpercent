@@ -13,3 +13,4 @@ A tiny static site to reproduce a Lighthouse split: 1 URL passes and 9 URLs fail
 
 You can ignore local dev; hosting is handled by GitHub Pages.
 
+
